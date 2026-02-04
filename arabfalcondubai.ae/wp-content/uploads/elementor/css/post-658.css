@@ -1,0 +1,56 @@
+.elementor-kit-658 {
+    --e-global-color-primary: #C9962B;
+    --e-global-color-secondary: #2E3192;
+    --e-global-color-text: #0C1228;
+    --e-global-color-accent: #F4673A;
+    --e-global-color-a1ab11a: #EEB52A;
+    --e-global-color-9dcc90c: #EE2A2A;
+    --e-global-color-a6c2086: #818991;
+    --e-global-color-6f6730a: #C0C8CE;
+}
+
+.elementor-kit-658 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1320px;
+}
+
+.e-con {
+    --container-max-width: 1320px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+    --widgets-spacing-row: 20px;
+    --widgets-spacing-column: 20px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
